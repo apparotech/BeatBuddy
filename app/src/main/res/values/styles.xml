@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="MyBottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/MyActiveTextAppearance</item>
+        <item name="itemTextAppearanceInactive">@style/MyInactiveTextAppearance</item>
+    </style>
+
+    <style name="MyActiveTextAppearance">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MyInactiveTextAppearance">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+</resources>
